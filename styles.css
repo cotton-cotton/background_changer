@@ -1,0 +1,17 @@
+/** @format */
+
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+button {
+	width: 160px;
+	height: 40px;
+	background-color: rgb(150, 148, 148);
+	color: antiquewhite;
+	border: none;
+	font-size: 18px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
