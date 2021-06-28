@@ -2,6 +2,7 @@
 
 const h1 = document.querySelector("h1");
 const body = document.querySelector("body");
+const button = document.querySelector("button");
 
 function hexCode() {
 	let result = "#";
@@ -14,6 +15,6 @@ function hexCode() {
 	body.style.backgroundColor = result;
 	h1.textContent = `HEX COLOR: ${result}`;
 
-	btn.addEventListener("submit", hexCode);
+	button.addEventListener("click", hexCode);
 }
 hexCode();
